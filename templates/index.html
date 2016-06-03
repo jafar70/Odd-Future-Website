@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"  />
+    </head>
+    <body>
+            <!-- Fixed navbar -->
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">Odd Future</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-left">
+                <li class="active"><a href="/">Home</a></li>       
+                <li><a href="/about">About</a></li>
+                <li><a href="/tour">Tour Dates</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+        
+            <!---Jumbotron--->
+        <div class="container">
+          <div class="jumbotron">
+            <center><h1>Odd Future Fan Club</h1></center>
+          </div>
+        </div>
+        
+        <div class="container">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="//www.youtube.com/embed/fzi24Nssiow"></iframe>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <h1 style="text-align:center;color:white;">The Most Popular Odd Future Members</h1>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img src="http://brightsidelive.com/wp-content/uploads/frankocean1.jpg" width="500px" height="500px" alt="frank">
+                  <div class="caption">
+                    <h3>Frank Ocean</h3>
+                    <p>The greatest singer to touch the earth</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img src="http://cdn3.teen.com/wp-content/uploads/2015/04/tyler-the-creator-wenn_500x500.jpg"  width="500px" height="500px" alt="tyler">
+                  <div class="caption">
+                    <h3>Tyler, The Creator</h3>
+                    <p>The Odd Future founder and rapper.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img src="http://s3.amazonaws.com/rapgenius/1365198256_Earl%20Sweatshirt%20earlsweatshirt.jpg" alt="earl">
+                  <div class="caption">
+                    <h3>Earl Sweatshirt</h3>
+                    <p>Best Rapper Alive</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+        </div>
+        
+        <footer class="footer">
+          <div class="container">
+            <div class="col-md-12">
+              <p>Created By Jafar Salami</p>
+            </div>
+          </div>
+        </footer>
+        
+    </body>
+</html>

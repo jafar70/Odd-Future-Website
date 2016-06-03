@@ -1,0 +1,31 @@
+body{
+  padding-top:70px;
+  background-image: url("http://img06.deviantart.net/ba91/i/2015/021/e/d/ofwgkta_by_mollyjames00-d8etoeq.jpg");
+}
+
+.jumbotron{
+   background-image: url("http://s2.favim.com/610/151117/background-cotton-candy-pink-purple-Favim.com-3582122.jpg");
+   background-size: cover;
+   color:black;
+}
+
+.footer{
+  background-color: #ffffcc;
+  color:black;
+  padding-top:10px;
+}
+
+.ofbody{
+    font-size: 16px;
+    background-color:#ffffff;
+    color: black;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
